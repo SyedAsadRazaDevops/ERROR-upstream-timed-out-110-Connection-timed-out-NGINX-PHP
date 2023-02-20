@@ -32,4 +32,5 @@ memory_limit = 8192M
 ```
 
 [LINK]: https://ma.ttias.be/nginx-and-php-fpm-upstream-timed-out-failed-110-connection-timed-out-or-reset-by-peer-while-reading/
+
 [LINK]: https://talk.plesk.com/threads/upstream-timed-out-110-connection-timed-out-while-reading-response-header-from-upstream.367272/
