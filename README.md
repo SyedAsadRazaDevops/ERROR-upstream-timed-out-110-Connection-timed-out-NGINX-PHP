@@ -1,5 +1,5 @@
 
-#### [error] 86013#86013: *213 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 1.2.3.4, server: demo.com, request: "POST /api/v2/get?forData=true HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock", host: "demo.com"
+**[error] 86013#86013:** *213 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 1.2.3.4, server: demo.com, request: "POST /api/v2/get?forData=true HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock", host: "demo.com"
 
 ### You may receive a response such as this when running Nginx and php-fpm after a fixed amount of time (default = 60s).
 
@@ -31,3 +31,5 @@ max_input_time = 12000
 memory_limit = 8192M      
 ```
 
+[LINK]: https://ma.ttias.be/nginx-and-php-fpm-upstream-timed-out-failed-110-connection-timed-out-or-reset-by-peer-while-reading/
+[LINK]: https://talk.plesk.com/threads/upstream-timed-out-110-connection-timed-out-while-reading-response-header-from-upstream.367272/
